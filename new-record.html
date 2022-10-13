@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+<body>
+<div class="container">
+  
+<hr>
+  <h1>Create new record</h1>
+  <hr>
+
+  <form action="http://localhost:3000/record" method="POST">
+    <label for="artist">Artist</label>
+    <input type="text" name="artist">
+
+    <br>
+
+    <label for="title">Title</label>
+    <input type="text" name="title">
+   
+    <br>
+
+    <label for="year">Year</label>
+    <input type="number" name="year">
+    
+    <br>
+
+    <label for="id">Id</label>
+    <input type="number" name="id">
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <a href="/record-list.html">Record list</a>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
